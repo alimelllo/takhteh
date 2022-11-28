@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import takhtelogo from '../../public/images/takhtelogo.png';
 import jacket1 from '../../public/images/jacket1.jpeg';
 import main from '../../public/images/main.jpg';
-import main2 from '../../public/images/main2.jpg';
+// import main2 from '../../public/images/main2.jpg';
 import { useState , useEffect } from 'react';
 import logo4113 from './../../public/images/4113.png'
 import graffitiBoard from '../../public/images/Borads/graffiti.png';
