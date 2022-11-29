@@ -6,7 +6,6 @@ import Footer from './Footer';
 import AnimatedText from 'react-animated-text-content';
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
-import Fade from 'react-reveal/Fade';
 
 
 

@@ -9,16 +9,17 @@ import instagram from './../../public/images//icons/instagram.png';
 import whatsapp from './../../public/images//icons/whatsapp.png';
 import gmail from './../../public/images//icons/gmail.png';
 import twitter from './../../public/images//icons/twitter.png';
+import { Fade } from 'react-reveal';
 
 const Shop = () => {
     return (
         <>
 
-  <div id='shop' className='flex flex-row justify-between mt-[10rem] md:flex-col'>
-<p className='text-center pl-[2rem] md:pl-0 text-[2.5rem] font-[600] text-[#565656]'>Takhteh Shop</p>
-
+  <div id='shop' className='flex flex-row justify-between overflow-hidden mt-[10rem] md:flex-col'>
+  <Fade left><p className='text-center pl-[2rem] md:pl-0 text-[2.5rem] font-[600] text-[#565656]'>Takhteh Shop</p></Fade>
+<Fade right>
 <div className='flex flex-row md:mx-auto md:mt-5'>
-  
+   
   <div className='bg-[#e9e9e9] w-[4rem] mx-5  rounded-[10px] shadow-2xl'>
   <Image src={union} layout="responsive" objectFit='cover' />
 </div>
@@ -30,12 +31,12 @@ const Shop = () => {
  </div>
 
 </div>
-
+</Fade>
   </div>
 
 
 
-<div className='flex flex-row justify-end mt-[5rem] md:flex-col-reverse '>
+<div className='flex flex-row justify-end mt-[5rem] md:flex-col-reverse overflow-hidden'>
 
 <div className='pl-[2rem] text-[1.5rem] font-[600] text-[#9f9f9f] mt-[5rem] w-8/12 md:w-full'>
   <p>You can visit and buy your favorite accessories in tehran (marzdaran) from shop. </p>
@@ -43,11 +44,13 @@ const Shop = () => {
   <div className='flex flex-row my-[1rem] md:justify-center'><div className='w-[3rem] md:w-[10rem]'><Image src={location} layout="responsive" objectFit='cover' /></div><p className='pt-1 pl-5'>Tehran Marzadarn , alvand street , alvand mall , second floor pelaque 35.</p></div>
 </div>
 
+<Fade right>
 <div className='w-4/12 md:w-full'>
   <div className=' w-full rounded-l-[20px] md:rounded-none boxShadow opacity-[0.8] cursor-pointer hover:opacity-[1] transition-all duration-300'>
    <Image src={shop} layout="responsive" className='rounded-l-[20px] md:rounded-none' objectFit='cover' />
   </div>
 </div>
+</Fade>
 
 </div>
         </>

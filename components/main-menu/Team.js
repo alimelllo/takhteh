@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import team from '../../public/images/team.jpg';
 import takhtelogo from '../../public/images/takhtelogo.png';
+import Fade from 'react-reveal/Fade';
 
 
 const Team = () => {
