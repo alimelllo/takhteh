@@ -1,4 +1,4 @@
-import MainSection from "../components/main-menu/MainSection" 
+import Main from "../components/main-menu/Main" 
 import Head from 'next/head';
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <meta property="og:title" content="Takhteh" key="title" />
       </Head>
     
-    <MainSection />
+    <Main />
 
     </div>
   )
