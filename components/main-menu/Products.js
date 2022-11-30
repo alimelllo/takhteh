@@ -9,7 +9,7 @@ import brucelee from '../../public/images/Borads/brucelee.png';
 import chaplin from '../../public/images/Borads/chaplin.png';
 import wood from '../../public/images/Borads/wood.png';
 import zahak from '../../public/images/Borads/zahhak.png';
-import rostam from '../../public/images/Borads/graffiti.png';
+import rostam from '../../public/images/Borads/rostam.png';
 import graffiti1 from '../../public/images/Borads/graffiti1.png';
 import gorbe1 from '../../public/images/Borads/gorbe-1.png';
 import gorbe2 from '../../public/images/Borads/gorbe-2.png';
