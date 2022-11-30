@@ -1,12 +1,11 @@
 {
-    "theme_color": "#35b6f6",
-    "background_color": "#35b6f6",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "custom neon",
-    "short_name": "neon",
-    "description": "order your design",
+    "name": "takhteh snowboards",
+    "short_name": "takhteh",
     "icons": [
         {
             "src": "/icon-192x192.png",
