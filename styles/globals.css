@@ -21,14 +21,13 @@ body {
 
 .boxShadow{
   box-shadow:  15px 15px 25px #b2b2b2b0,
-             -15px -15px 25px #bfbfbf;
+             -15px -15px 15px #bfbfbf;
 }
 
-.boxShadow2x{
-  box-shadow:  30px 30px 50px #0b0b0b,
-             -30px -30px 50px #0b0b0b;
+.boxShadowDark{
+  box-shadow:  20px 20px 30px #1b1b1b,
+             -20px -20px 30px #1b1b1b;
 }
-
 
 ::-webkit-scrollbar-corner{
   display: none;

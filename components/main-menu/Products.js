@@ -42,93 +42,36 @@ import green3 from '../../public/images/Fixes/green3.webp';
 import green4 from '../../public/images/Fixes/green4.webp';
 
 
-const Products = () => {
+const Products = ( props ) => {
 
 
     return (
     <>
        <Flip left>
-<div id='products' className='w-[15%] shadow-2xl rounded-[15px] p-5 mx-auto my-[10rem] md:my-[10rem] md:mt-[15rem] md:w-[50%]'>
+<div id='products' className={`w-[15%] shadow-2xl ${props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark text-[#b0b0b0]'}  rounded-[15px] p-5 mx-auto my-[10rem] md:my-[10rem] md:mt-[15rem] md:w-[50%]`}>
   <Image src={logo4113} layout="responsive" objectFit='contain' />
   <p className='text-center text-[1.5rem]'>4113 Takhte SnowBoards</p>
 </div>
        </Flip>
-<div className='w-full flex flex-wrap p-[2rem] overflow-hidden'>
 
-<Fade left>
-<div className='w-6/12 md:w-full shadow-2xl'>
-<Image src={graffitiBoard} layout="responsive" objectFit='contain' />
+<div className="flex flex-row flex-wrap w-full justify-around ">
+
+<div className={`w-3/12 mt-[5rem] m-1 md:w-5/12 ${ props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark'} rounded-[20px] shadow-2xl`}><Image className="rounded-[20px]" layout="responsive" objectFit="cover" src={zahak}/></div>
+<div className={`w-3/12 mt-[5rem] m-1 md:w-5/12 ${ props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark'} rounded-[20px] shadow-2xl`}><Image className="rounded-[20px]" layout="responsive" objectFit="cover" src={graffiti1}/></div>
+<div className={`w-3/12 mt-[5rem] m-1 md:w-5/12 ${ props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark'} rounded-[20px] shadow-2xl`}><Image className="rounded-[20px]" layout="responsive" objectFit="cover" src={chaplin}/></div>
+
+<div className="w-3/12 md:w-5/12 m-1 mt-[5rem] rounded-[20px] shadow-2xl"><Image className="rounded-[20px]" layout="responsive" objectFit="cover" src={rostam}/></div>
+<div className="w-3/12 md:w-5/12 m-1 mt-[5rem] rounded-[20px] shadow-2xl"><Image className="rounded-[20px]" layout="responsive" objectFit="cover" src={wood}/></div>
+<div className="w-3/12 md:w-5/12 m-1 mt-[5rem] rounded-[20px] shadow-2xl"><Image className="rounded-[20px]" layout="responsive" objectFit="cover" src={brucelee}/></div>
+
+
+
 </div>
-</Fade>
-
-<Fade right>
-<div className='w-6/12 md:w-full shadow-2xl'>
-<Image src={gorbe1} layout="responsive" objectFit='contain' />
-</div>
-</Fade>
-
-<Fade left>
-<div className='w-6/12 md:w-full shadow-2xl'>
-<Image src={gorbe2} layout="responsive" objectFit='contain' />
-</div>
-</Fade>
-
-
-<Fade right>
-<div className='w-6/12 md:w-full shadow-2xl'>
-<Image src={gorbe3} layout="responsive" objectFit='contain' />
-</div>
-</Fade>
-
-
-<Fade left>
-<div className='w-5/12 mx-auto md:w-full rounded-[15px] boxShadow my-[5rem] md:my-[3rem] md:mt-[5rem]'>
-   <Image src={graffiti1} layout="responsive" className='rounded-[15px]' objectFit='contain' />
-</div>
-</Fade>
-
-
-<Fade right>
-<div className='w-5/12 mx-auto md:w-full rounded-[15px] boxShadow my-[5rem] md:my-[3rem]'>
-   <Image src={chaplin} layout="responsive" className='rounded-[15px]' objectFit='contain' />
-</div>
-</Fade>
-
-
-<Fade left>
-<div className='w-5/12 mx-auto rounded-[15px] md:w-full boxShadow my-[5rem] md:my-[3rem]'>
-<Image src={rostam} layout="responsive" className='rounded-[15px]' objectFit='contain' />
-</div>
-</Fade>
-
-
-<Fade right>
-<div className='w-5/12 mx-auto rounded-[15px] md:w-full boxShadow my-[5rem] md:my-[3rem]'>
-<Image src={zahak} layout="responsive" className='rounded-[15px]' objectFit='contain' />
-</div>
-</Fade>
-
-
-<Fade left>
-<div className='w-5/12 mx-auto rounded-[15px] md:w-full boxShadow my-[5rem] md:my-[3rem]'>
-<Image src={brucelee} layout="responsive" className='rounded-[15px]' objectFit='contain' />
-</div>
-</Fade>
-
-
-<Fade right>
-<div className='w-5/12 mx-auto rounded-[15px] md:w-full boxShadow my-[5rem] md:my-[3rem]'>
-<Image src={wood} layout="responsive" className='rounded-[15px]' objectFit='contain' />
-</div>
-</Fade>
-
-
-
 
 {/*         fixes         */}
 {/* ===================== */}
 
-
+{/* 
 <Flip left>
 <div className='w-3/12 p-[2rem] md:p-[1rem] md:w-6/12 shadow-2xl mt-5'>
 <Image className='rounded-[15px]' src={green1} layout="responsive" objectFit='contain' />
@@ -248,9 +191,9 @@ const Products = () => {
 <div className='w-3/12 p-[2rem] md:p-[1rem] md:w-6/12 shadow-2xl mt-5'>
 <Image className='rounded-[15px]' src={black4} layout="responsive" objectFit='contain' />
 </div>
-</Flip>
+</Flip> */}
 
-</div>
+
 
 
 

@@ -6,6 +6,7 @@ import Footer from './Footer';
 import AnimatedText from 'react-animated-text-content';
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
+import { useState } from 'react';
 
 
 
@@ -16,21 +17,24 @@ import Bounce from 'react-reveal/Bounce';
 
 const Main = () => {
 
-
+const [ theme , SetTheme ] = useState('light')
  
+const themeHandler = ( theme ) => {
+    SetTheme(theme)
+}
 
 return (
     <>
 
-<Home/>
+<Home theme={themeHandler}/>
 
-<Products/>
+<Products theme={theme}/>
 
-<Team/>
+<Team theme={theme}/>
 
-<Shop/>
+<Shop theme={theme}/>
    
-<Footer/>
+<Footer theme={theme}/>
   
     </>
  )
