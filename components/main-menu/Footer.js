@@ -5,7 +5,7 @@ import gmail from './../../public/images//icons/gmail.png';
 import twitter from './../../public/images//icons/twitter.png';
 import Fade from 'react-reveal/Fade';
 
-const Footer = () => {
+const Footer = ( props ) => {
     return ( 
         <>
      <Fade>
