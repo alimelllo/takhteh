@@ -1,24 +1,23 @@
 import gray1 from '../public/images/jackets/gray1.jpg';
-import gray2 from '../public/images/jackets/gray2.png';
-import gray3 from '../public/images/jackets/gray3.png';
-import gray4 from '../public/images/jackets/gray4.png';
+import gray2 from '../public/images/jackets/gray2.PNG';
+import gray3 from '../public/images/jackets/gray3.PNG';
+import gray4 from '../public/images/jackets/gray4.PNG';
 import gray5 from '../public/images/jackets/gray5.jpg';
-import gray6 from '../public/images/jackets/gray6.png';
-import gray7 from '../public/images/jackets/gray7.png';
-import gray8 from '../public/images/jackets/gray8.png';
-import gray9 from '../public/images/jackets/gray9.png';
-import gray10 from '../public/images/jackets/gray10.png';
-import gray11 from '../public/images/jackets/gray11.png';
-import gray12 from '../public/images/jackets/gray12.png';
+import gray6 from '../public/images/jackets/gray6.PNG';
+import gray7 from '../public/images/jackets/gray7.PNG';
+import gray8 from '../public/images/jackets/gray8.PNG';
+import gray9 from '../public/images/jackets/gray9.PNG';
+import gray10 from '../public/images/jackets/gray10.PNG';
+import gray11 from '../public/images/jackets/gray11.PNG';
+import gray12 from '../public/images/jackets/gray12.PNG';
 
-import brick1 from '../public/images/jackets/brick1.png';
-import brick2 from '../public/images/jackets/brick2.png';
-import brick3 from '../public/images/jackets/brick3.png';
-import brick4 from '../public/images/jackets/brick4.png';
-import brick5 from '../public/images/jackets/brick5.png';
-import brick6 from '../public/images/jackets/brick6.png';
-import brick7 from '../public/images/jackets/brick7.png';
-
+import brick1 from '../public/images/jackets/brick1.PNG';
+import brick2 from '../public/images/jackets/brick2.PNG';
+import brick3 from '../public/images/jackets/brick3.PNG';
+import brick4 from '../public/images/jackets/brick4.PNG';
+import brick5 from '../public/images/jackets/brick5.PNG';
+import brick6 from '../public/images/jackets/brick6.PNG';
+import brick7 from '../public/images/jackets/brick7.PNG';
 
 
 
