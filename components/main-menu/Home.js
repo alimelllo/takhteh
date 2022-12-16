@@ -51,8 +51,8 @@ const Home  = ( props ) => {
 </Fade>
 
 <Fade right>
-<div className='flex flex-row z-10 ml-[5rem] md:glassEffect md:ml-0 md:justify-center'>
-<div className='w-3/12 md:w-10/12 md:bg-[#a0a0a04a] rounded-[20px] p-[2rem] mt-[5rem] mr-[5rem] md:mr-0'>
+<div className='flex flex-row z-10 ml-[5rem] md:glassEffect md:ml-0 md:justify-center md:mt-5'>
+<div className='w-3/12 md:w-10/12 md:bg-[#aebbaf71] rounded-[20px] p-[2rem] mt-[5rem] mr-[5rem] md:mr-0'>
   <Image src={takhtelogo} layout="responsive" objectFit='cover' />
   <p className='font-[Vibur] tracking-[2px] font-[600] text-[2rem] text-[#505050] md:text-[white] text-center'>TAKHTEH SNOWBOARDS</p>
   <ScrollIntoView selector="#products" smooth={true}><button className='w-full boxShadow md:shadow-2xl mt-3 rounded-[10px] hover:scale-110 p-3 transition-all duration-300 text-[1.5rem] text-white bg-gradient-to-r from-[#2e4b2ee6] to-[#597a59e6] hover:bg-[#0f3b20]' >PRODUCTS</button></ScrollIntoView>

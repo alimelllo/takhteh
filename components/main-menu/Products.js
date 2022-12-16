@@ -48,7 +48,7 @@ const Products = ( props ) => {
     return (
     <>
        <Flip left>
-<div id='products' className={`w-[15%] shadow-2xl ${props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark text-[#c5c5c5]'}  rounded-[15px] p-5 mx-auto my-[10rem] md:my-[10rem] md:mt-[15rem] md:w-[50%]`}>
+<div id='products'  className={`w-[15%] shadow-2xl ${props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark text-[#c5c5c5]'}  rounded-[15px] p-5 mx-auto my-[10rem] mt-[25rem] md:w-[50%]`}>
   <Image src={logo4113} layout="responsive" objectFit='contain' />
   <p className='text-center text-[1.5rem]'>4113 Takhte SnowBoards</p>
 </div>
@@ -56,17 +56,17 @@ const Products = ( props ) => {
 
 <div className="flex flex-row flex-wrap w-full justify-around font-[Vibur]">
 
-<div className={`w-3/12 mt-[5rem]  m-1 md:w-5/12 bg-gradient-to-r from-[#701ac1] to-[#33b8af] ${ props.theme === 'light' ? 'boxShadow' : 'boxShadowDark'} rounded-[10px]`}>
+<div className={`w-3/12 mt-[5rem]  m-1 md:w-10/12 bg-gradient-to-r from-[#701ac1] to-[#33b8af] ${ props.theme === 'light' ? 'boxShadow' : 'boxShadowDark'} rounded-[10px]`}>
        <p className={`text-[2rem] relative py-3 ${ props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark' }  z-20 text-[#ffffff] text-center`}>BOARDS</p>
        <div className=" z-10"><Image className="rounded-b-[10px]" layout="responsive" objectFit="cover" src={graffiti1}/></div>
 </div>
 
-<div className={`w-3/12 mt-[5rem]  m-1 md:w-5/12 bg-gradient-to-r from-[#c11a55] to-[#c15a1a] ${ props.theme === 'light' ? 'boxShadow' : 'boxShadowDark'} rounded-[10px]`}>
+<div className={`w-3/12 mt-[5rem]  m-1 md:w-10/12 bg-gradient-to-r from-[#c11a55] to-[#c15a1a] ${ props.theme === 'light' ? 'boxShadow' : 'boxShadowDark'} rounded-[10px]`}>
        <p className={`text-[2rem] relative py-3 ${ props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark' }  z-20 text-[#ffffff] text-center`}>BOOTS</p>
        <div className=" z-10"><Image className="rounded-b-[10px]" layout="responsive" objectFit="cover" src={orange2}/></div>
 </div>
 
-<div className={`w-3/12 mt-[5rem]  m-1 md:w-5/12 bg-gradient-to-r from-[#2e4b2ee6] to-[#597a59e6]  ${ props.theme === 'light' ? 'boxShadow' : 'boxShadowDark'} rounded-[10px]`}>
+<div className={`w-3/12 mt-[5rem]  m-1 md:w-10/12 bg-gradient-to-r from-[#2e4b2ee6] to-[#597a59e6]  ${ props.theme === 'light' ? 'boxShadow' : 'boxShadowDark'} rounded-[10px]`}>
        <p className={`text-[2rem] relative py-3 ${ props.theme === 'light' ? 'shadow-2xl' : 'boxShadowDark' }  z-20 text-[#ffffff] text-center`}>JACKETS</p>
        <div className=" z-10"><Image className="rounded-b-[10px]" layout="responsive" objectFit="cover" src={jacket}/></div>
 </div>

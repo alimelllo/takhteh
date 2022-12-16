@@ -20,8 +20,8 @@ body {
 }
 
 .boxShadow{
-  box-shadow:  15px 15px 25px #b2b2b2b0,
-             -15px -15px 15px #bfbfbf;
+  box-shadow:  15px 15px 25px #bebebeb0,
+             -15px -15px 15px #e4e4e4;
 }
 
 .boxShadowDark{
