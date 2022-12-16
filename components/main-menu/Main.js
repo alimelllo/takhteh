@@ -3,39 +3,23 @@ import Team from './Team'
 import Products from './Products';
 import Shop from './Shop';
 import Footer from './Footer';
-import AnimatedText from 'react-animated-text-content';
-import Zoom from 'react-reveal/Zoom';
-import Bounce from 'react-reveal/Bounce';
-import { useState } from 'react';
-
-
-
-
-
-
-
 
 const Main = () => {
 
-const [ theme , SetTheme ] = useState('light')
  
-const themeHandler = ( theme ) => {
-    SetTheme(theme)
-}
-
 return (
     <>
 
-<Home theme={themeHandler}/>
+ <Home/>
 
-<Products theme={theme}/>
+ <Products/>
 
-<Team theme={theme}/>
+ <Team/> 
 
-<Shop theme={theme}/>
+ <Shop/> 
    
-<Footer theme={theme}/>
-  
+ <Footer/>   
+
     </>
  )
 }
