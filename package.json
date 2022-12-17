@@ -16,6 +16,7 @@
     "react": "18.2.0",
     "react-animated-text-content": "^1.0.1",
     "react-dom": "18.2.0",
+    "react-loading-skeleton": "^3.1.0",
     "react-reveal": "^1.2.2",
     "react-scroll-into-view": "^1.12.0"
   },
